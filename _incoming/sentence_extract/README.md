@@ -1,0 +1,2 @@
+# Sentence Extractor
+Extracts and somewhat verifies sentences made with `Sentence Scanner`. This tool is VERY specialized for extracting Danish sentences. It DOES NOT WORK for any other language. When verified sentences have been extracted it can create a text corpus using the `--generate` cli parameter which extracts sentences from the verified dataset using a certain amount of different types of sentences such as `Sentences ending with a '!'` and `Sentences ending with a '?'` and `Sentences that contain a number`.
