@@ -11,6 +11,16 @@ For the tool to work please ensure:
 
 ## Pre-requisites
 This script uses the Whisper speech-to-text engine. You must create a Python3 venv and install the packages required.
+```
+$ python3 -m venv _venv
+$ source _venv/bin/activate
+$ pip install faster_whisper numpy
+```
 
 ## Commandline parameters
 Run the script with `--help` to see all available commandline parameters.
+
+## Running example
+```
+/video_and_subtitle_to_piper_dataset.py -i "*.mkv" --discard-mismatches
+```
